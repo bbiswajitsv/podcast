@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My favourite episodes</title>
+    <link>https://media.rss.com/jtukkkk/feed.xml</link>
+     <!-- <atom:link href="http://yoursite.com/feed.xml" rel="self" type="application/rss+xml" /> -->
+    <language>en-us</language>
+    <description>Your podcast description</description>
+    <image>
+      <title>Picture Title</title>
+      <link>http://YourSite.com</link>
+      <url>https://stock.adobe.com/in/images/gradient-univers-stars-generative-aitra/569391961</url>
+      <width>70</width>
+      <height>55</height>
+    </image>
+    <!-- Add more episodes here -->
+    <item>
+      <title>Episode 1: Susan sontag</title>
+      <description>Episode 1 description</description>
+      <enclosure url="https://traffic.libsyn.com/philosophizethis/sontag_illness_final.mp3" length="12345678" type="audio/mpeg"/>
+      <!-- <pubDate>Thu, 01 Jan 2023 00:00:00 GMT</pubDate> -->
+      <!-- <itunes:image href="http://www.example.com/episode1_image.jpg"/> -->
+    </item>
+    
+  </channel>
+</rss>
