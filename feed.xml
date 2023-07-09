@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<?xml-stylesheet type="text/xsl" href="https://media.rss.com/style.xsl"?>
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="en" version="2.0">
   <channel>
-    <title>My favourite episodes</title>
-    <link>https://bbiswajitsv.github.io/podcast/feed.xml</link>
-     <!-- <atom:link href="http://yoursite.com/feed.xml" rel="self" type="application/rss+xml" /> -->
-    <language>en-us</language>
-    <description>Your podcast description</description>
+    <title><![CDATA[My favourite podcast episodes]]></title>
+    <link>https://bbiswajitsv.github.io/podcast</link>
+    <atom:link href="https://bbiswajitsv.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <description><![CDATA[<p>My podcasts</p>]]></description>
+    <generator>RSS.com v2.9.3</generator>
+    <lastBuildDate>Sun, 09 Jul 2023 04:43:39 GMT</lastBuildDate>
+    <language>en</language>
+    <copyright><![CDATA[i09p[09]]></copyright>
+    <itunes:image href="https://as2.ftcdn.net/v2/jpg/05/69/39/19/1000_F_569391961_6POob4kWEvObtNO2SDUASYqohbuTNr6Z.jpg"/>
     <image>
-      <title>Picture Title</title>
-      <link>http://YourSite.com</link>
-      <url>https://stock.adobe.com/in/images/gradient-univers-stars-generative-aitra/569391961</url>
-      <width>70</width>
-      <height>55</height>
+      <url>https://as2.ftcdn.net/v2/jpg/05/69/39/19/1000_F_569391961_6POob4kWEvObtNO2SDUASYqohbuTNr6Z.jpg</url>
+      <title>My favourite podcast episodes</title>
+      <link>https://rss.com/podcasts/jtukkkk</link>
     </image>
-    <!-- Add more episodes here -->
-    <item>
-      <title>Episode 1: Susan sontag</title>
-      <description>Episode 1 description</description>
-      <enclosure url="https://traffic.libsyn.com/philosophizethis/sontag_illness_final.mp3" length="12345678" type="audio/mpeg"/>
-      <!-- <pubDate>Thu, 01 Jan 2023 00:00:00 GMT</pubDate> -->
-      <!-- <itunes:image href="http://www.example.com/episode1_image.jpg"/> -->
-    </item>
-    
+    <podcast:locked>yes</podcast:locked>
+    <podcast:license>i09p[09</podcast:license>
+    <itunes:author>popi</itunes:author>
+    <itunes:owner>
+      <itunes:name>popi</itunes:name>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Arts">
+      <itunes:category text="Books"/>
+    </itunes:category>
   </channel>
 </rss>
